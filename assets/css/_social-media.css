@@ -1,0 +1,43 @@
+.item{
+    padding: 14px 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    color: #fff;
+    margin-bottom: 20px;
+}
+ 
+.instagram{
+    background: #f09433;
+    background: -moz-linear-gradient(45deg,#f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: -webkit-linear-gradient(
+45deg
+,#f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(
+45deg
+,#f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+
+box-shadow: 0 1px 19px rgb(216 38 75 / 53%);
+
+}
+.telegram {
+  width: 100%;
+  background: linear-gradient(120deg, #41d7ef, #1d7ed7);
+  box-shadow: var(--element-shadow);
+  border-radius: var(--main-border-radius);
+  -webkit-border-radius: var(--main-border-radius);
+  -moz-border-radius: var(--main-border-radius);
+  -ms-border-radius: var(--main-border-radius);
+  -o-border-radius: var(--main-border-radius);
+  box-shadow: 0 1px 19px rgb(0 136 204 / 51%);
+}
+.item-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-inner span{
+    font-weight: bold;
+}
+.item-inner .item-icon{
+    font-size: 38px;
+}

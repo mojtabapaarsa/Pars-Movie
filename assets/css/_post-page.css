@@ -1,0 +1,101 @@
+.post-bookmark{
+    margin-left: 3px;
+    font-size: 23px;
+    color: #666;
+}
+.post-bookmark:hover{
+    color: var(--primary-color);
+     
+}
+.movie-info-list .story-more{
+    text-align: justify;
+    line-height: 27px;
+   
+}
+.movie-post-downloadbox{
+    color: var(--primary-color);
+    text-align: center;
+}
+.custom-accordion{
+    padding: 20px 10px;
+}
+.custom-accordion-card{
+    margin-bottom: 10px;
+    border-radius: 15px !important;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    -ms-border-radius: 15px !important;
+    -o-border-radius: 15px !important;
+}
+.custom-accordion-card-header{
+    padding: 5px 7px;
+    color: #fff !important;
+    background-color: var(--secondary-color);
+    border-radius: 15px !important;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    -ms-border-radius: 15px !important;
+    -o-border-radius: 15px !important;
+}
+.custom-accordion-card-header button{
+    color: #fff !important;
+    text-decoration: none !important;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.custom-accordion-card-header button:active,
+.custom-accordion-card-header button:focus{
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.custom-accordion-card-header h5{
+    outline: none !important;
+    box-shadow: none !important;
+    border: none; 
+}
+.download-links{
+    border: 1px solid #cdcaca;
+    padding: 5px 7px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.download-links:hover{
+    border: 1px solid #979696;
+}
+.quality{
+    background-color: #DA3C78;
+    padding: 2px 7px;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-size: 14px;
+}
+.size{
+    background-color: #8A0028;
+    padding: 2px 7px;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-right: auto;
+    margin-left: 10px;
+    font-weight: 300;
+}
+.download-link{
+    background-color: #2f304a;
+    padding: 4px 33px;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: 300;
+    font-size: 15px;
+}
+.download-link a{
+    color: #fff;
+}

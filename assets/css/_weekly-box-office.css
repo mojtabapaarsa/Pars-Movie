@@ -1,0 +1,100 @@
+.weekly-box-office-container{
+    position: relative;
+    box-shadow: var(--element-shadow);
+    border-radius: var(--element-border-radius);
+    -webkit-border-radius: var(--element-border-radius);
+    -moz-border-radius: var(--element-border-radius);
+    -ms-border-radius: var(--element-border-radius);
+    -o-border-radius: var(--element-border-radius);
+    padding: 1rem;
+}
+.weekly-title{
+    
+     
+    color: #787b81;
+    font-size: 19px;
+}
+.weekly-icon{
+    vertical-align: -11px;
+    font-size: 27px;
+   color: var(--secondary-color) !important;
+   margin-left: 7px;
+   
+}
+.weekly-btn{
+   position: absolute;
+   left: 19px;
+   background-image: var(--primary-linear);
+   color: #fff;
+   box-shadow: 0 0 20px rgb(100 106 255 / 29%);
+   transition: background .5s linear;
+   -webkit-transition: background .5s linear;
+   -moz-transition: background .5s linear;
+   -ms-transition: background .5s linear;
+   -o-transition: background .5s linear;
+}
+.weekly-btn .weekly-btn-angle{
+    margin-right: 10px !important;
+    vertical-align: -3px;
+}
+.weekly-btn:hover{
+    background: #333 !important;
+    color: #fff;
+    box-shadow: 0 0 20px rgb(0 0 0 / 20%);
+}
+
+.carousel-card{
+    position: relative;
+    border-radius: 7px;
+  
+    
+}
+.weekly-img{
+    position: relative;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    height: 310px;
+}
+.weekly-details{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   color: #fff;
+   background-color: rgba(0,0,0,.6);
+   border-radius: 7px;
+   display: none;
+   overflow: hidden;
+   transition: all .5s linear;
+   -webkit-transition: all .5s linear;
+   -moz-transition: all .5s linear;
+   -ms-transition: all .5s linear;
+   -o-transition: all .5s linear;
+}
+.carousel-card:hover .weekly-details{
+    display: block;
+}
+.weekly-details a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+.weekly-details .weekly-details-imdb{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    font-size: 20px;
+}
+.weekly-details-imdb img{
+    width: 50px !important;
+    height: auto;
+    margin-top: -10px;
+    margin-right: 10px;
+}

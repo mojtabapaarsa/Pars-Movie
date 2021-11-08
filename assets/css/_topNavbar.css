@@ -1,0 +1,96 @@
+/* Top NAvbar Styles */
+.navbar-customize{
+    box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+    position: sticky;
+    top: 0;
+    z-index: 33;
+}
+.nav-logo{
+    width: 200px;
+    height: auto;
+    text-align: right;
+}
+.navbar-item-custom li{
+    margin-left: 12px;
+    font-weight: bold;
+}
+.navbar-item-custom a{
+    color: #111 !important;
+    transition: color .2s ease-in;
+    -webkit-transition: color .2s ease-in;
+    -moz-transition: color .2s ease-in;
+    -ms-transition: color .2s ease-in;
+    -o-transition: color .2s ease-in;
+}
+.navbar-item-custom a:hover{
+    color: var(--secondary-color) !important;
+   
+}
+.navbar-search-box{
+    width: 300px;
+    margin: 0 50px 0 0px;
+     
+}
+.navbar-search-box button{
+   color: #111;
+}
+.navbar-search-box button:hover{
+   color: var(--secondary-color);
+}
+.navbar-search-box input,
+.navbar-search-box input:focus,
+.navbar-search-box input:active,
+.navbar-search-box input:hover{
+    background-color: #efefef;
+}
+.navbar-search-box input , 
+.navbar-search-box button{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+.navbar-search-btn{
+    background-color:#efefef !important; 
+}
+.navabar-login-btn:focus,
+.navabar-login-btn:active{
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.navabar-login-btn{
+    margin-right: 15px !important;
+    background-image: var(--primary-linear);
+    color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.navabar-login-btn:hover,
+.navabar-login-btn:focus{
+    color: rgb(245, 245, 245);
+    
+}
+@media screen and (max-width:1200px) {
+    .nav-logo{
+        width: 150px;
+        height: auto;
+        text-align: right;
+    }
+}
+@media screen and (max-width:900px) {
+   .navbar-search-box{
+       margin-right: 0;
+      
+   } 
+}

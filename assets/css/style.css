@@ -1,0 +1,52 @@
+@import '_fonts.css';
+@import '_topNavbar.css';
+@import '_slider.css';
+@import '_weekly-box-office.css';
+@import '_p-search-box.css';
+@import '_social-media.css';
+@import '_aside.css';
+@import '_post.css';
+@import '_offer-movie.css';
+@import '_TimeTable-Dialoge.css';
+@import '_footer.css';
+@import '_sign-in.css';
+@import '_post-page.css';
+@import '_comments.css';
+
+:root{
+    --primary-linear:  linear-gradient(to right,rgba(52,130,238,1) 0%,rgba(127,85,235,1) 82%,rgba(127,85,235,1) 100%) !important;
+    --primary-color:rgba(52,130,238,1);
+    --secondary-color:rgba(127,85,235,1);
+    --third-color:rgba(127,85,235,1);
+    --element-shadow: 0 2px 4px rgb(191 189 189 / 31%);
+    --element-border-radius:7px;
+    --main-border-radius:10px !important;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: iranyekan;
+    background-color: #f1f1f1;
+}
+
+/* Some Css Resets */
+a , a:hover{
+    text-decoration: none;
+}
+ul,li{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.float-left{
+    float: left;
+}
+/* Some Css Resets */
+
+@media (min-width: 1200px)
+{
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1317px !important;
+}
+}

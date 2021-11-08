@@ -1,0 +1,103 @@
+footer{
+    padding: 2em 0 0;
+    background: #2a2139;
+    color: #fff;
+}
+.footer-title{
+    margin-bottom: 20px;
+    color: RGB(166, 115, 244);
+}
+.footer-title h6{
+    font-size: 20px;
+}
+.footer-title-icon{
+    vertical-align: -4px;
+}
+.footer-body .about-us{
+    line-height: 36px;
+    text-align: justify;
+    font-weight: 300;
+    background: #332944;
+    padding: 6px 12px;
+    border-radius: 10px;
+}
+.footer-boxes{
+    margin-top: 44px;
+}
+.footer-box{
+    background: #332944;
+    color: #fff;
+    padding: 8px 5px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition:background .3s linear ;
+    -webkit-transition:background .3s linear ;
+    -moz-transition:background .3s linear ;
+    -ms-transition:background .3s linear ;
+    -o-transition:background .3s linear ;
+}
+.footer-box:hover{
+    background: #403553;
+    color: #fff;
+}
+.footer-box-title{
+    margin: 5px 12px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-box-title h6 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 5px;
+}
+.footer-box-title-icon{
+    margin-top: -1px;
+    font-size: 24px;
+    margin-left: 7px;
+}
+.footer-box-left{
+    margin-left: 10px;
+}
+.footer-bottom{
+    border-top: 1px solid #443361;
+    margin: 1.5em 0 0;
+    padding: 1.5em 0;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    color: #e9e2f9;
+}
+.copyright img{
+    width: 150px;
+    height: auto;
+}
+.copyright span strong{
+    color: rgba(255, 0, 0, 0.863);
+    font-size: 19px;
+}
+.footer-social-media{
+    text-align: left;
+    direction: ltr;
+}
+.footer-social-media a{
+    font-size: 28px;
+    margin-right: 15px;
+    color: #8b799b;
+    transition: color .3s linear;
+    -webkit-transition: color .3s linear;
+    -moz-transition: color .3s linear;
+    -ms-transition: color .3s linear;
+    -o-transition: color .3s linear;
+}
+.footer-social-media a:hover{
+    color: #ffb200;
+}

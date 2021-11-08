@@ -1,0 +1,7 @@
+@font-face {
+    font-family: iranyekan;
+    src: url(../fonts/iranyekanwebregular.ttf) format('truetype'),
+          url(../fonts/iranyekanwebregular.eot) format('eot'),
+          url(../fonts/iranyekanwebregular.woff) format('woff'),
+          url(../fonts/iranyekanwebregular.woff2) format('woff'),
+}

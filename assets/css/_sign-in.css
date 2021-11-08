@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+     
+}
+.login-container{
+    background-image:
+    linear-gradient(to bottom, rgb(255 255 255 / 15%), rgb(56 40 221 / 33%)), url(../images/sign-in-back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.login-form-wrapper{
+  
+   min-width: 200px !important;
+   height: auto;
+   background-color: rgba(0, 0, 0, .8);
+   border-radius:10px ;
+   -webkit-border-radius:10px ;
+   -moz-border-radius:10px ;
+   -ms-border-radius:10px ;
+   -o-border-radius:10px ;
+   color: #fff;
+   padding-bottom: 10px;
+}
+.login-form-logo{
+   
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 10px 0;
+}
+.login-form-logo img{
+    width: 220px;
+}
+.sign-in-form{
+    padding: 20px 40px;
+}
+.sign-in-form input{
+    padding: 27px 20px !important;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    outline: none;
+    box-shadow: none;
+}
+.login-btn{
+    color: #fff;
+    background-color: #5454ff !important;
+    box-shadow: 0 5px 10px #5454ff60 !important;
+    padding: 11px 36px;
+    border-radius: 30px;
+      margin-top: 20px;
+}
+.login-btn:hover{
+    color: #fff;
+    
+}
+.sign-in-remember{
+    border: none;
+    
+}
+.forget{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px 20px;
+    
+}
+ 
+.forget a{
+    color: #efefef;
+    background-color: #efefef28;
+    padding: 2px 5px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}

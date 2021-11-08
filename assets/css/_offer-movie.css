@@ -1,0 +1,96 @@
+.offer-movie{
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 54%)),
+    url('../images/movie-back-2.png');
+    background-position: center center;
+    background-size: cover;
+    
+    margin-top: 20px;
+    min-height: 300px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 11px 21px;
+    box-shadow: var(--element-shadow);
+}
+.offer-movie-title , .offer-movie-title a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    color: #ffcc00;
+    font-weight: 700;
+    font-size: 23px;
+}
+.offer-movie-title-icon{
+    vertical-align: -3px;
+}
+.offer-movie-title h6{
+    font-size: 18px;
+}
+.offer-movie-body figure{
+    max-width: 215px;
+    max-height: 295px;
+    position: relative;
+    
+}
+.offer-movie-body figure img{
+    border-radius: 10px;
+    max-width: 215px;
+    max-height: 295px;
+     border: 2px solid #F1C40F;
+}
+.offer-movie-info{
+    color: #fff;
+    margin-top: 10px;
+}
+.offer-movie-info-list{
+    color: #fff;
+    padding: 0 20px;
+}
+.offer-movie-info-list li{
+    font-size: 13px;
+    margin-bottom: 18px;
+}
+.offer-movie-info-icon{
+    color: #ffd23e ;
+    margin-left: 5px;
+    vertical-align: -3px;
+    text-align: center;
+    align-self: center;
+    font-size: 16px;
+    vertical-align: -4px;
+}
+.offer-post-imdb-rate{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 39px;
+    top: 76px;
+}
+.offer-post-imdb-rate button , 
+.offer-post-imdb-rate button:hover,
+.offer-post-imdb-rate button:focus{
+    background-color: #f7c02b;
+    outline: none;
+    height: 30px;
+    box-shadow: none;
+    padding: 1px 7px;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+}
+.offer-post-imdb-rate span{
+    vertical-align: -4px;
+    font-size: 27px;
+    color: #ffffff;
+    word-spacing: 30px;
+}
+.offer-post-imdb-rate span small{
+    color: #989797;
+    word-spacing: 30px;
+}
